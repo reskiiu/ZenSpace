@@ -99,7 +99,7 @@ body {
 /* tamaño de las imágenes */
 .card img {
   width: 95%;
-  height: 300 px;
+  height: 300px;
   margin: 10px;
   border-radius: 10px;
   max-width: 400px;
