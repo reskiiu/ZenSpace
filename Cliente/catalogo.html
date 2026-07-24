@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZenSpace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="../images/logo.png" alt="Logo ZenSpace" width="110" height="35">
+        </div>
+        <nav class="menu">
+            <a href="index.html" class="link">Inicio</a>
+            <a href="catalogo.html" class="link">Catalogo</a>
+            <a href="visualizador.html" class="link">Visualizador 3D</a>
+        </nav>
+                <nav class="menu_1">
+            <a href="carrito.html" class="btn-carrito"><i class="bi bi-cart"></i></a>
+            <a href="perfil.html" class="btn-perfil"><i class="bi bi-person-bounding-box"></i></a>
+        </nav>
+    </header>
+
+    <section class="catalogo">
+
+        <div class="header-catalogo">
+
+            <div>
+                <h1>Catalogo ZenSpace</h1>
+                <p>Descubre piezas Japandi diseñadas para crear armonía en tu hogar.</p>   
+            </div>
+            <div class="acciones">
+                <div class="busqueda"><i class="bi bi-search"></i>
+                <input type="text" placeholder="Buscar productos">
+                </div>
+
+                <button class="btn-filtro"><i class="bi bi-sliders"></i>Filtros</button>
+
+            </div>
+        </div>
+
+        <div class="filtros">
+            <button class="chip activo">Todos</button>
+            <button class="chip">Sala</button>
+            <button class="chip">Comedor</button>
+            <button class="chip">Iluminación</button>
+            <button class="chip">Decoración</button>
+        </div>
+
+        <div class="grid-catalogo">
+            <article class="card-producto">
+                <div class="img-producto">
+                 <img src="../images/silla.png" alt="silla ergonomica">
+                 <button class="favorito">
+                 <i class="bi bi-heart"></i>
+                 </button>
+                </div>
+
+                <div class="contenido-producto">
+                    <div class="encabezado">
+                     <span class="marcar-categoria">asientos</span>
+                     <span class="btn-estrella">
+                     <i class="bi bi-star"></i> </span> 
+                    </div>
+                    <h3>Silla Ergonómica</h3>
+                    <p>Silla ergonómica diseñada para brindar comodidad y un excelente soporte durante largas jornadas de trabajo o estudio.</p>
+
+                    <div class="footer-producto">
+                        <div>
+                         <strong class="precio-catalogo">$199.99</strong>
+                        </div>
+                     <button class="btn-agregar-carrito">
+                     <i class="bi bi-bag-plus"></i>
+                     </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card-producto">
+                <div class="img-producto">
+                    <img src="../images/lampara.png" alt="lampara de pie">
+                    <button class="favorito">
+                        <i class="bi bi-heart"></i>
+                    </button>
+                </div>
+
+                <div class="contenido-producto">
+                    <div class="encabezado">
+                     <span class="marcar-categoria">iluminación</span>
+                     <span class="btn-estrella"><i class="bi bi-star">3.5</i> </span>
+                    </div>
+                 <h3>Lámpara de Pie</h3>
+                 <p>Lámpara de pie con diseño moderno que proporciona una iluminación cálida y acogedora para cualquier espacio del hogar.</p>
+
+                    <div class="footer-producto">
+                        <div>
+                         <strong class="precio-catalogo">$89.99</strong>
+                        </div>
+                     <button class="btn-agregar-carrito">
+                     <i class="bi bi-bag-plus"></i>
+                     </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card-producto">
+                <div class="img-producto">
+                    <img src="../images/comedor.png" alt="mesa de comedor">
+                    <button class="favorito">
+                        <i class="bi bi-heart"></i>
+                    </button>
+                </div>
+
+                <div class="contenido-producto">
+                    <div class="encabezado">
+                     <span class="marcar-categoria">comedor</span>
+                     <span class="btn-estrella"><i class="bi bi-star"></i></span>
+                    </div>
+                    <h3>Mesa de Comedor</h3>
+                    <p>Mesa de comedor amplia y resistente, ideal para compartir reuniones familiares y momentos especiales con amigos.</p>
+
+                    <div class="footer-producto">
+                        <div>
+                         <strong class="precio-catalogo">$299.99</strong>
+                        </div>
+
+                     <button class="btn-agregar-carrito">
+                     <i class="bi bi-bag-plus"></i>
+                     </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card-producto">
+                <div class="img-producto">
+                    <img src="../images/aseo.png" alt="sofa minimalista">
+                    <button class="favorito">
+                        <i class="bi bi-heart"></i>
+                    </button>
+                </div>
+
+                <div class="contenido-producto">
+                    <div class="encabezado">
+                     <span class="marcar-categoria">Aseo</span>
+                     <span class="btn-estrella"><i class="bi bi-star"></i></span>
+                    </div>
+                    <h3>Organizador de Baño</h3>
+                    <p>Organizador práctico para mantener los artículos de higiene ordenados y aprovechar mejor el espacio del baño.</p>
+
+                    <div class="footer-producto">
+                        <div>
+                         <strong class="precio-catalogo">$499.99</strong>
+                        </div>
+
+                     <button class="btn-agregar-carrito">
+                     <i class="bi bi-bag-plus"></i>
+                     </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card-producto">
+                <div class="img-producto">
+                    <img src="../images/mesa_noche.png" alt="mesa de noche">
+                    <button class="favorito">
+                        <i class="bi bi-heart"></i>
+                    </button>
+                </div>
+
+                <div class="contenido-producto">
+                    <div class="encabezado">
+                     <span class="marcar-categoria">Dormitorio</span>
+                     <span class="btn-estrella"><i class="bi bi-star"></i></span>
+                    </div>
+                    <h3>Mesa de Noche Moderna</h3>
+                    <p>Mesa de noche funcional con amplio espacio para guardar tus objetos personales y complementar la decoración del dormitorio..</p>
+
+                    <div class="footer-producto">
+                        <div>
+                         <strong class="precio-catalogo">$149.99</strong>
+                        </div>
+
+                     <button class="btn-agregar-carrito">
+                     <i class="bi bi-bag-plus"></i>
+                     </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card-producto">
+                <div class="img-producto">
+                    <img src="../images/adornos.png" alt="adornos de decoración">
+                    <button class="favorito">
+                        <i class="bi bi-heart"></i>
+                    </button>
+                </div>
+
+                <div class="contenido-producto">
+                    <div class="encabezado">
+                     <span class="marcar-categoria">decoración</span> 
+                     <span class="btn-estrella"><i class="bi bi-star"></i> </span>
+                    </div>
+                    <h3>Adornos Decorativos Modernos</h3>
+                    <p>Set de adornos decorativos con estilo contemporáneo, ideales para dar un toque elegante y acogedor a cualquier ambiente.</p>
+
+                    <div class="footer-producto">
+                        <div>
+                         <strong class="precio-catalogo">$79.99</strong>
+                        </div>
+
+                     <button class="btn-agregar-carrito">
+                     <i class="bi bi-bag-plus"></i>
+                     </button>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="paginacion">
+            <button class="pagina actual">1</button>
+            <button class="pagina">2</button>
+            <button class="pagina">3</button>
+            <button class="siguiente pagina">
+            <i class="bi bi-arrow-right"></i>
+            </button>
+        </div>
+    </section>
