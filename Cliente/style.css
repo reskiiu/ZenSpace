@@ -76,6 +76,12 @@ body {
   font-size: 27px;
 }
 
+.btn-perfil i:hover,
+.btn-carrito i:hover {
+  padding: 10px;
+  border: 1px solid ;
+}
+
 .destacadas-seccion {
   padding: 30px 50px;
 }
