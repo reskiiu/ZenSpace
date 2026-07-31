@@ -999,7 +999,6 @@ body {
     min-height: 400px;
   }
 
-  /* Perfil */
   .contenedor-perfil {
     flex-direction: column;
     align-items: flex-start;
@@ -1020,4 +1019,63 @@ body {
   .pedido strong {
     margin-left: 0;
   }
+
+.perfil {
+  padding: 25px 20px;
+}
+
+.contenedor-perfil {
+  flex-direction: column;
+  align-items: stretch; 
+  padding: 20px;
+  gap: 20px;
+}
+
+.informacion-perfil {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px; /* baja el gap de 30px, muy grande para móvil */
+}
+
+.informacion-perfil img {
+  width: 90px;
+  height: 90px;
+}
+  .datos-usuario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedor-puntos {
+  width: 100%;   /* 👈 en vez de los 160px fijos */
+  height: auto;
+  padding: 15px;
+}
+
+.titulo-historial {
+  font-size: 20px;
+  margin: 30px 0 20px;
+}
+
+.pedido {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 18px;
+}
+
+.informacion-pedido {
+  width: 100%;
+}
+
+  .pedido strong {
+  margin-left: 0;
+  font-size: 18px;
+}
+
+.estado {
+ align-self: flex-start;
+}
 }
