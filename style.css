@@ -949,3 +949,75 @@ body {
   background: #e2f8eb;
   color: #3D9960;
 }
+
+@media screen and (max-width: 768px) {
+
+  .header {
+    flex-wrap: wrap;
+    padding: 15px 20px;
+    gap: 15px;
+  }
+
+  .menu {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .grid-catalogo {
+    grid-template-columns: 1fr;
+  }
+
+  .header-catalogo {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .busqueda {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .carrito {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  .producto-agregado {
+    flex-wrap: wrap;
+  }
+
+  .producto-agregado img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .visualizador {
+    grid-template-columns: 1fr;
+  }
+
+  .lienzo-3d {
+    min-height: 400px;
+  }
+
+  /* Perfil */
+  .contenedor-perfil {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .informacion-perfil {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .pedido {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .pedido strong {
+    margin-left: 0;
+  }
+}
